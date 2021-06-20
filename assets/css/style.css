@@ -168,6 +168,7 @@ img {
 .header-area .navbar{
     background-color: #fff;
     border-bottom: 5px solid #2e9a73;
+    padding-top: 0;
 }
 
 .navbar-brand img{
@@ -177,7 +178,7 @@ img {
 .navbar-sticky{
         position: fixed;
         width: 100%;
-        height: 100px;
+        height: 90px;
         background-color: #fff;
         -webkit-box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
         box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.15);
@@ -192,6 +193,7 @@ img {
     border-radius: 5px;
     position: relative;
     justify-content: space-between;
+    padding-top: 5px;
 }
 
 .nav-item.nav-item-sm a{
@@ -223,7 +225,7 @@ img {
     z-index: 999;
 } */
 .banner-section{
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .hero{
@@ -337,6 +339,7 @@ form .form-control{
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 1px;
+    font-weight: 600;
 }
 
 
@@ -762,7 +765,11 @@ form .form-control{
     padding-left: 60px; */
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-no.last{
+    margin-bottom: 0;
 }
 
 .nu-icon{
@@ -810,7 +817,7 @@ form .form-control{
 
 .footer-top{
     /* background: #0c2341; */
-    padding: 50px 0;
+    padding: 25px 0;
     border-bottom: 1px solid #ccc;
     background-color: #2e9a73;
 }
@@ -826,8 +833,8 @@ form .form-control{
 }
 
 .footer-logo-place img{
-    margin-bottom: 26px;
-    max-width: 180px;
+    /* margin-bottom: 26px; */
+    max-width: 220px;
 }
 
 .footer-logo-place p{
@@ -835,7 +842,7 @@ form .form-control{
 }
 
 .copyright-area{
-    padding: 30px 0px;
+    padding: 25px 0px;
     width: 100%;
     /* text-align: center; */
 }
@@ -919,6 +926,7 @@ form .form-control{
 
 .modal-right form{
     width: 100%;
+    margin-top: 35px;
 }
 
 .modal-right form .form-group{
@@ -948,10 +956,10 @@ form .form-control{
     padding: 25px;
 }
 
-.modal-heading h3{
-    font-size: 28px;
-    font-weight: 700;
+.modal-heading h5{
+    font-weight: 600;
     text-transform: uppercase;
+    color: #2e9a73;
 }
 
 .modal-body button.close{
@@ -968,6 +976,13 @@ form .form-control{
     padding: 10px;
     border-radius: 50%;
     background: #ed695a;
+}
+
+.popup-btn-style{
+    background: #2e9a73;
+    padding: 12px 35px;
+    width: 100%;
+    border-radius: 50px;
 }
 
 /* Criteria Area */
@@ -1114,9 +1129,16 @@ form .form-control{
     align-items: center;
 }
 
+.download-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .download-content h2{
     font-size: 1.8rem;
     font-weight: 600;
+    margin-right: 25px;
 }
 
 .download-button i{
@@ -1165,6 +1187,11 @@ form .form-control{
 
 .about-section{
     background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.about-section img{
+    margin-bottom: 35px;
 }
 
 .content-about h1{
@@ -1173,15 +1200,19 @@ form .form-control{
     color: #2e9a73;
     font-weight: 600;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .content-about h1:before{
     position: absolute;
     content: "";
-    width: 22%;
+    width: 5%;
     height: 2px;
     background-color: #2e9a73;
     left: 0;
     bottom: -12px;
+}
+
+.content-about p{
+    margin-bottom: 15px;
 }

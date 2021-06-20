@@ -52,6 +52,15 @@
     .about-section{
         padding: 70px 0;
     }
+    .download-content{
+        flex-direction: column;
+    }
+    .download-content h2{
+        margin-bottom: 25px;
+    }
+    .footer-logo-place{
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 767px){
@@ -201,10 +210,10 @@
         font-size: .9rem;
     }
     .banner-section{
-        margin-top: 88px;
+        margin-top: 84px;
     }
     .hero{
-        height: 20vh;
+        height: 25vh;
     }
     .enq-form{
         top: 85%;
