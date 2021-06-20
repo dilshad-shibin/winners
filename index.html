@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/fancy-box.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -20,16 +21,17 @@
                 <div class="container">
                     <div class="navbar-bg-color">
                         <a href="index.html" class="navbar-brand">
-                            <img src="img/logo.png" alt="">
+                            <img src="assets/img/logo/logo-green.png" alt="">
                         </a>
                         <div class="navbar-collapse collapse">
                             <ul class="navbar-nav header-items ml-auto">
-                                <li class="nav-item">
-                                    <a href="tel:" class="nav-link btn btn-bordered default-btn nav-btn mr-2" data-toggle="modal" data-target="#exampleModalCenter"> Enquire Now</a>
-                                </li>
                                 <li class="nav-item nav-item-sm">
-                                    <a href="tel:+917034092200" class="nav-link btn btn-bordered default-btn nav-btn d-none d-lg-block"> +917034092200</a>
+                                    <a href="tel:+917034092200" class="nav-link d-none d-lg-block  mr-2"> +91 7034092200</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="tel:" class="btn btn-bordered default-btn nav-btn" data-toggle="modal" data-target="#exampleModalCenter"> Enquire Now</a>
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -38,111 +40,139 @@
         </header>
         
         <!-- Banner section -->
-        <section class="hero">
-            <div class="hero-overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-7 col-lg-7 col-12 col-sm-12">
-                        <div class="hero-text">
-                            <h2>Let's be Help For <br> <span>Children</span></h2>
-                            <div class="slide-subtitle">
-                                <!-- <p>Free Tution For 3000 Selected Students.</p>
-                                <p>You Can Satisfied Yourself By Helping.</p> -->
-                            </div>
-                            <div class="Slide-btn">
-                                <a href="#contact" class="btn btn-bordered default-btn">Apply Now</a>
-                            </div>
-                        </div>
+        <!-- <section class="banner-slider owl-carousel">
+            <div class="hero1">
+                <div class="enq-form">
+                    <div class="form-box">
+                        <form action="">
+                                        <div class="form-header">
+                                            <h2>Admission</h2>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" id="name" name="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="phone" placeholder="Phone" class="form-control" id="phone" name="phone">
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Class</option>
+                                                <option value="">1st Standard</option>
+                                                <option value="">2nd Standard</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">District</option>
+                                                <option value="">Trivandrum</option>
+                                                <option value="">Kollam</option>
+                                                <option value="">Alappuzha</option>
+                                                <option value="">Kottayam</option>
+                                                <option value="">Pathanamthitta</option>
+                                                <option value="">Ernakulam</option>
+                                                <option value="">Thrissur</option>
+                                                <option value="">Palakkad</option>
+                                                <option value="">Malappuram</option>
+                                                <option value="">Calicut</option>
+                                                <option value="">Wayanad</option>
+                                                <option value="">Kannur</option>
+                                                <option value="">Kasargode</option>
+                                            </select>
+                                        </div>
+                                            <button type="submit" class="btn btn-bordered default-btn btn-style1">Submit</button>
+                        </form>
                     </div>
-                    <div class="col-md-5 col-lg-5 col-12 col-sm-12 text-right text-left-767">
-                        <!-- <div class="enq-form">
-                            <div class="form-box">
-                                <form action="">
-                                    <div class="form-header">
-                                        <h2>Admission</h2>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Name" class="form-control" id="name" name="name">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="phone" placeholder="Phone" class="form-control" id="phone" name="phone">
-                                    </div>
-                                    <div class="form-group">
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Select Class</option>
-                                            <option value="">1st Standard</option>
-                                            <option value="">2nd Standard</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <select name="" id="" class="form-control">
-                                            <option value="">Select District</option>
-                                            <option value="">Trivandram</option>
-                                            <option value="">Kollam</option>
-                                            <option value="">Pathanamthitta</option>
-                                            <option value="">Alappuzha</option>
-                                            <option value="">Kottayam</option>
-                                        </select>
-                                    </div>
-                                        <button type="submit" class="btn btn-bordered default-btn btn-style1">Submit</button>
-                                </form>
+                </div>
+            </div>
+            <div class="hero2">
+                <div class="enq-form">
+                    <div class="form-box">
+                        <form action="">
+                                        <div class="form-header">
+                                            <h2>Admission</h2>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" id="name" name="name">
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="phone" placeholder="Phone" class="form-control" id="phone" name="phone">
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Class</option>
+                                                <option value="">1st Standard</option>
+                                                <option value="">2nd Standard</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">District</option>
+                                                <option value="">Trivandrum</option>
+                                                <option value="">Kollam</option>
+                                                <option value="">Alappuzha</option>
+                                                <option value="">Kottayam</option>
+                                                <option value="">Pathanamthitta</option>
+                                                <option value="">Ernakulam</option>
+                                                <option value="">Thrissur</option>
+                                                <option value="">Palakkad</option>
+                                                <option value="">Malappuram</option>
+                                                <option value="">Calicut</option>
+                                                <option value="">Wayanad</option>
+                                                <option value="">Kannur</option>
+                                                <option value="">Kasargode</option>
+                                            </select>
+                                        </div>
+                                            <button type="submit" class="btn btn-bordered default-btn btn-style1">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="banner-section">
+            <div class="hero">
+                <div class="enq-form">
+                    <div class="form-box">
+                        <form action="">
+                            <div class="form-header">
+                                            <h5>സ്‌കോളർഷിപ്പിനെ കുറിച്ച്‌ കൂടുതലറിയാൻ</h5>
                             </div>
-                        </div> -->
+                            <div class="form-group">
+                                            <input type="text" placeholder="Name" class="form-control" id="name" name="name">
+                            </div>
+                            <div class="form-group">
+                                            <input type="phone" placeholder="Phone" class="form-control" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">Class</option>
+                                                <option value="">1st Standard</option>
+                                                <option value="">2nd Standard</option>
+                                            </select>
+                            </div>
+                            <div class="form-group">
+                                            <select name="" id="" class="form-control">
+                                                <option value="">District</option>
+                                                <option value="">Trivandrum</option>
+                                                <option value="">Kollam</option>
+                                                <option value="">Alappuzha</option>
+                                                <option value="">Kottayam</option>
+                                                <option value="">Pathanamthitta</option>
+                                                <option value="">Ernakulam</option>
+                                                <option value="">Thrissur</option>
+                                                <option value="">Palakkad</option>
+                                                <option value="">Malappuram</option>
+                                                <option value="">Calicut</option>
+                                                <option value="">Wayanad</option>
+                                                <option value="">Kannur</option>
+                                                <option value="">Kasargode</option>
+                                            </select>
+                            </div>
+                            <button type="submit" class="btn btn-bordered default-btn btn-style1">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- Form area -->
-        <div class="form-area">
-            <div class="container">
-                <!-- <div class="row">
-                    <h2>Apply Now</h2>
-                </div> -->
-                <div class="">
-                    <form action="">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Phone"> 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <select name="" id="" class="form-control">
-                                    <option value="">Class</option>
-                                    <option value="">1st Standard</option>
-                                    <option value="">2nd Standard</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select name="" id="" class="form-control">
-                                    <option value="">District</option>
-                                    <option value="">Trivandrum</option>
-                                    <option value="">Kollam</option>
-                                    <option value="">Alappuzha</option>
-                                    <option value="">Kottayam</option>
-                                    <option value="">Pathanamthitta</option>
-                                    <option value="">Ernakulam</option>
-                                    <option value="">Thrissur</option>
-                                    <option value="">Palakkad</option>
-                                    <option value="">Malappuram</option>
-                                    <option value="">Calicut</option>
-                                    <option value="">Wayanad</option>
-                                    <option value="">Kannur</option>
-                                    <option value="">Kasargode</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <button type="submit" class="btn btn-bordered default-btn btn-style1">Submit</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
 
          <!-- Criteria Area -->
          <section class="criteria-section ptb_100">
@@ -150,8 +180,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="criteria-header">
-                            <h2>Joining <span>Criteria</span></h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nobis ratione. Nemo quo velit laborum hic numquam amet et quam.</p>
+                            <h2>സ്‌കോളർഷിപ്പിനുള്ള <span>അർഹത ആർക്കൊക്കെ</span></h2>
+                            <p>വിദ്യാഭ്യാസ  കാര്യങ്ങളിൽ ബുദ്ധിമുട്ടനുഭവിക്കുന്ന ദാരിദ്ര രേഖയ്ക്ക് താഴെയുള്ള കുടുംബങ്ങളിലെ കുട്ടികൾക്കാണ് വിന്നേഴ്സ് കോച്ചിങ് സെന്റർ സ്‌കോളർഷിപ്പ് നൽകുന്നത്.</p>
                         </div>
                     </div>
                 </div>
@@ -159,28 +189,105 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="criteria-box">
                             <div class="criteria-body">
-                                <h5>Lorem ipsum</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h5>വരുമാന <br> സർട്ടിഫിക്കറ്റ്</h5>
+                                <p>വില്ലേജ് ഓഫീസർ സാക്ഷ്യപ്പെടുത്തിയ  നിങ്ങളുടെ കുടുംബത്തിന്റെ വരുമാനം കാണിക്കുന്ന സർട്ടിഫിക്ക.</p>
                             </div>
-                            <a href="#" class="btn-style2">Enquire Now <i class="fa fa-angle-right ml-2"></i></a>
+                            <a href="javascript:void();" class="btn-style2">Read More <i class="fa fa-angle-right ml-2"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="criteria-box">
                             <div class="criteria-body">
-                                <h5>Lorem ipsum</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h5>പി.ടി.എ പ്രസിഡന്റിന്റെ സാക്ഷ്യ പത്രം</h5>
+                                <p>നിങ്ങളുടെ കുടുംബത്തിന്റെ വരുമാനം തെളിയിക്കുന്ന നിങ്ങളുടെ മകൻ/ മകൾ പഠിക്കുന്ന സ്കൂളിലെ പി.ടി.എ പ്രസിഡന്റിന്റെ സാക്ഷ്യപത്രം.</p>
                             </div>
-                            <a href="#" class="btn-style2">Enquire Now <i class="fa fa-angle-right ml-2"></i></a>
+                            <a href="javascript:void();" class="btn-style2">Read More <i class="fa fa-angle-right ml-2"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="criteria-box">
                             <div class="criteria-body">
-                                <h5>Lorem ipsum</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h5>വാർഡ് കൗൺസിലറിന്റെ സാക്ഷ്യപത്രം</h5>
+                                <p>നിങ്ങളുടെ കുടുംബം ദാരിദ്ര്യ രേഖയ്ക്ക് താഴെയെന്നു തെളിയിക്കുന്ന നിങ്ങളുടെ വാർഡ് കൗൺസിലറുടെ സാക്ഷ്യപത്രം.</p>
                             </div>
-                            <a href="#" class="btn-style2">Enquire Now <i class="fa fa-angle-right ml-2"></i></a>
+                            <a href="javascript:void();" class="btn-style2">Read More <i class="fa fa-angle-right ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row counter-top">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-rack">
+                            <h3>1000</h3>
+                            <h2>Completed Students</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-rack">
+                            <h3>504</h3>
+                            <h2>Rank Holders</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-rack">
+                            <h3>15</h3>
+                            <h2>Experienced Faculty's</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="count-rack last">
+                            <h3>10</h3>
+                            <h2>Year Of Experience</h2>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- download area -->
+        <section class="download-area">
+            <div class="container">
+                <div class="row p-download">
+                    <div class="col-md-6">
+                        <div class="download-content">
+                            <h2>സാക്ഷ്യ പത്രത്തിന്റെ  മാതൃക.</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="download-button">
+                            <button class="btn btn-style4"><i class="icofont-download"></i> Download</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quality section -->
+        <section class="our-quality">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="quality-header">
+                            <h1>ഞങ്ങളുടെ പ്രത്യേകതകൾ</h1>
+                            <p>18 വർഷങ്ങളായി വിദ്യാർത്ഥികൾക്കൊപ്പം നിന്ന് അവരെ വിജയത്തിലേക്ക് കൈപിടിച്ചുയർത്തിയ പാരമ്പര്യമാണ് വിന്നേഴ്സ് കോച്ചിങ് സെന്റെറിനുള്ളത്. അറിവിന്റെ വഴിയിൽ ഇന്നും കൂടെയുണ്ട് നിങ്ങൾക്കൊപ്പം ഞങ്ങൾ.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="quality-points">
+                            <ul>
+                                <li><i class="icofont-check-circled"></i> <span>ഏറ്റവും ഫലപ്രദമായ ലൈവ് ഇന്റെറാക്ഷൻ  ക്ലാസ്</span></li>
+                                <li><i class="icofont-check-circled"></i> <span>ലൈറ്റ് ബോർഡുകൾ, സ്ലൈഡുകൾ, ആനിമേഷനുകൾ, വീഡിയോകൾ എന്നിവ ഉപയോഗിച്ചു കൊണ്ടുള്ള രസകരമായ ക്ലാസുകൾ</span></li>
+                                <li><i class="icofont-check-circled"></i> <span>ഓരോ വർഷവും അഞ്ചു റിവിഷനുകൾ</span></li>
+                                <li><i class="icofont-check-circled"></i> <span>പരിചയ സമ്പന്നരും, പ്രഗത്ഭരുമായ അധ്യാപകരുമായി ആശയവിനിമയത്തിനുള്ള സൗകര്യം</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="quality-points">
+                            <ul>
+                                <li><i class="icofont-check-circled"></i> <span>വിദ്യാർത്ഥികൾ പഠിച്ചുവെന്ന് ഉറപ്പുവരുത്താൻ  പരീക്ഷകൾ </span></li>
+                                <li><i class="icofont-check-circled"></i> <span> പ്രതിമാസ പ്രോഗ്രസ്സ് കാർഡും, വിദ്യാർത്ഥികളുടെ  മാതാപിതാക്കളുമായുള്ള ബന്ധവും</span></li>
+                                <li><i class="icofont-check-circled"></i> <span>പഠനം മെച്ചപ്പെടുത്താനും, ഏകാഗ്രത വർദ്ധിപ്പിക്കാനുമായി  യോഗ പ്രാണായാമ ധ്യാ</span></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -188,7 +295,7 @@
         </section>
 
         <!-- Counter section -->
-        <section class="counter-section">
+        <!-- <section class="counter-section">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-5">
@@ -246,34 +353,56 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- about section -->
-        <section class="about-area ptb_100">
+        <!-- <section class="about-area ptb_100">
             <div class="container">
-                <div class="row">
-                    
-                    <div class="col-12 col-md-12 col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-7 text-center">
                         <span class="about-btn">About US</span>
                         <div class="about-content">
                             <h2>We are in Mission To Help 3K Students</h2>
-                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quod consequuntur, eum modi et quia sequi ex minima officiis velit tempore ipsa. Quae, ipsum repellendus.</p>
-                            <p class="mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi amet consectetur perspiciatis aspernatur quasi tempora assumenda similique saepe optio architecto</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                        <div class="about-img justify-content-center">
-                            <div class="">
-                                <img src="assets/img/about/slider.jpg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="about-para">
+                            <p class="mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At quisquam reiciendis sunt esse consectetur cumque blanditiis excepturi id, dolorem vero laudantium iste quia asperiores eum nesciunt exercitationem sequi quam provident animi aut pariatur ab ea.</p>
+                            <p class="mt-2 last">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi amet consectetur perspiciatis aspernatur quasi tempora assumenda similique saepe optio architecto</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row rec-box">  
+                            <div class="col-md-9">
+                                <h2>Sample Of Letter formats</h2>
                             </div>
+                            <div class="col-md-3">
+                                <button class="btn btn-style4">Download</button>
+                            </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="about-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 d-none d-lg-block">
+                        <img src="assets/img/bg/about.jpg" alt="">
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="content-about">
+                            <h1>About US</h1>
+                            <p>Winner’s Coaching Centre was established in 2002, and has been a trailblazer in helping students achieve remarkable success in their educational endeavours. With over a decade of experience, the tuition centre has facilitated CBSE students from class 8 to plus two to accomplish outstanding results.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
+
         <!-- recommendation section -->
-        <section class="rec-section">
+        <!-- <section class="rec-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 ml-auto mr-auto">
@@ -282,12 +411,11 @@
                         </div>
                     </div>
                     <div class="rec-content col-md-12 text-center">
-                        <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestiae nobis necessitatibus nostrum odio quos obcaecati reprehenderit odit reiciendis nisi. Explicabo doloribus facilis laudantium modi.</h3> -->
                         <a href="" download class="btn btn-style4">Download</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Testimonials section -->
         <section class="testi-section ptb_100">
@@ -298,7 +426,7 @@
                         <h1>Our Students Say</h1>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <!-- <div class="row justify-content-center align-items-center">
                     <div class="col-lg-12">
                         <div class="testi-slider owl-carousel">
                             <div class="single-testi">
@@ -359,12 +487,43 @@
                             </div>
                         </div>
                     </div>
+                </div> -->
+            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testi-slider owl-carousel">
+                            <div class="single-testi">
+                                <div class="testi-box testi-img-1">
+                                    <div class="testi-overlay"></div>
+                                    <a data-fancybox class="vibtn" href="https://youtu.be/3ghKuJ9YJcQ"><span><i class="icofont-ui-play"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="single-testi">
+                                <div class="testi-box testi-img-2">
+                                    <div class="testi-overlay"></div>
+                                    <a data-fancybox class="vibtn" href="https://youtu.be/M4SCQR2iU38"><span><i class="icofont-ui-play"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="single-testi">
+                                <div class="testi-box testi-img-3">
+                                    <div class="testi-overlay"></div>
+                                    <a data-fancybox class="vibtn" href="https://youtu.be/_MZVmwc6RRA"><span><i class="icofont-ui-play"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="single-testi">
+                                <div class="testi-box testi-img-4">
+                                    <div class="testi-overlay"></div>
+                                    <a data-fancybox class="vibtn" href="https://youtu.be/ueaW1B5lF84"><span><i class="icofont-ui-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Area -->
-        <section class="contact-area ptb_100" id="contact">
+        <!-- <section class="contact-area ptb_100" id="contact">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-12 text-center">
@@ -384,7 +543,6 @@
                     </div>
                 </div>
                 <div class="row" style="margin: 40px 0;">
-                    <!-- <div class="contact-area-second"> -->
                         <div class="col-lg-4 col-md-6">
                             <div class="contact-no">
                                 <div class="nu-icon">
@@ -409,7 +567,47 @@
                                 <h5><a href="mailto:winnerseduworld@gmail.com">winnerseduworld@gmail.com</a></h5>
                             </div>
                         </div>
-                    <!-- </div> -->
+                </div>
+            </div>
+        </section> -->
+        
+        <section class="footer-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="footer-logo-place">
+                            <img src="assets/img/logo/white-logo.png" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nisi modi tempora commodi.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>
+                                <div class="contact-no">
+                                    <div class="nu-icon">
+                                        <i class="icofont-ui-cell-phone ico-size"></i>
+                                    </div>
+                                    <h5><a href="tel:+917034092200">+91 7034 092 200</a></h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-no">
+                                    <div class="nu-icon">
+                                        <i class="icofont-ui-cell-phone ico-size"></i>
+                                    </div>
+                                    <h5><a href="tel:+917034112200">+91 7034 112 200</a></h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-no">
+                                    <div class="nu-icon">
+                                        <i class="icofont-location-arrow ico-size"></i>
+                                    </div>
+                                    <h5><a href="mailto:winnerseduworld@gmail.com">winnerseduworld@gmail.com</a></h5>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -417,16 +615,16 @@
         <footer class="footer-bg">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-12">
                         <div class="copyright-area">
                             <p>Copyright © 2021 Winners Coaching Centre., All rights reserved. Designed by <a href="http://www.theviralmafia.com/?utm_source=time4education" target="_blank"> <img src="assets/img/footer/viralmafia.svg"></a></p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <!-- <div class="col-md-3">
                         <div class="footer-btn  d-none d-lg-block">
                             <a href="" class="btn btn-footer" data-toggle="modal" data-target="#exampleModalCenter">Enquire Now</a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </footer>
@@ -487,13 +685,28 @@
             </div>
         </div>
 
+        <!-- Fixed side button -->
+        <div class="fixed-side-btn">
+            <a href="#" class="btn btn-bordered btn-fixed-style" data-toggle="modal" data-target="#exampleModalCenter">Apply Now</a>
+        </div>
+
 
     </div><!-- close all area -->
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/fancybox.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    <script>
+        $(".btn-style2").on('click',function(){
+            $(this).parent().toggleClass("showContent");
+
+            var replaceText  = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+            $(this).text(replaceText)
+        })
+    </script>
 
 
 </body>

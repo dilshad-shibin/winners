@@ -48,4 +48,32 @@
                 }
             });
 
+             //Banner SLIDER ACTIVE CODE
+             $('.banner-slider.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 0,
+                nav: false,
+                dots: false,
+                smartSpeed: 2000,
+                autoplay: false,
+                responsiveClass: true,
+                autoplayTimeout: 4000,
+                // navText: ["<i class='icofont-arrow-left'></i>", "<i class='icofont-arrow-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    576: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    992: {
+                        items: 1
+                    }
+                }
+            });
+
 }(jQuery));

@@ -1,3 +1,10 @@
+@media(max-width: 1199px){
+    .enq-form{
+        top: 25%;
+    }
+}
+
+
 @media(max-width: 991px){
     .navbar-collapse{
         flex-basis: auto;
@@ -39,6 +46,12 @@
     .about-content{
         margin-bottom: 30px;
     }
+    .quality-header p{
+        margin-bottom: 20px;
+    }
+    .about-section{
+        padding: 70px 0;
+    }
 }
 
 @media(max-width: 767px){
@@ -54,7 +67,7 @@
         font-size: 16px;
     }
     .criteria-section{
-        margin-top: 240px;
+        margin-top: 280px;
     }
     .text-left-767{
         text-align: left !important;
@@ -117,6 +130,30 @@
     .contact-area{
         padding: 50px 0 0;
     }
+    .download-content h2{
+        margin-bottom: 20px;
+    }
+    .hero{
+        height: 50vh;
+    }
+    .enq-form{
+        top: 85%;
+        right: 10%;
+        width: 80%;
+        opacity: 10;
+    }
+    .footer-logo-place p{
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 576px){
+    .hero{
+        height: 40vh;
+    }
+    .criteria-header h2{
+        font-size: 1.5rem;
+    }
 }
 
 @media(max-width: 430px){
@@ -140,6 +177,10 @@
     .navbar-nav li a{
         font-size: 12px;
     }
+    .nav-btn{
+        padding: 12px 24px;
+        margin-top: 13px;
+    }
     .navbar-brand img{
         max-width: 145px;
     }
@@ -151,13 +192,29 @@
         font-size: 10px;
     }
     .criteria-header h2{
-        font-size: 2.2rem;
+        font-size: 1.35rem;
     }
     .testi-header h1{
         font-size: 2.2rem;
     }
     .contact-no h5{
         font-size: .9rem;
+    }
+    .banner-section{
+        margin-top: 88px;
+    }
+    .hero{
+        height: 20vh;
+    }
+    .enq-form{
+        top: 85%;
+        right: 10%;
+        width: 81%;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 15%);
+        opacity: 10;
+    }
+    .fixed-side-btn{
+        display: none;
     }
 }
 
@@ -176,3 +233,4 @@
         flex: 100%;
     }
 }
+
