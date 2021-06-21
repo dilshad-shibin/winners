@@ -61,6 +61,9 @@
     .footer-logo-place{
         margin-bottom: 30px;
     }
+    .owl-nav{
+        left: 43%;
+    }
 }
 
 @media(max-width: 767px){
@@ -154,6 +157,9 @@
     .footer-logo-place p{
         margin-bottom: 30px;
     }
+    .owl-nav{
+        left: 40%;
+    }
 }
 
 @media(max-width: 576px){
@@ -162,6 +168,15 @@
     }
     .criteria-header h2{
         font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 575px){
+    .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+        display: block !important;
+    }
+    .owl-nav{
+        left: 35%;
     }
 }
 

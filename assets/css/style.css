@@ -568,6 +568,10 @@ form .form-control{
 }
 
 /* Testimonials section */
+.testi-section{
+    padding: 100px 0 140px;
+}
+
 .testi-header{
     margin-bottom: 35px;
 }
@@ -734,6 +738,27 @@ form .form-control{
     position: relative;
     left: 2px;
     top: -1px;
+}
+
+.owl-nav{
+    position: absolute;
+    left: 46%;
+}
+
+.owl-nav button{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #2e9a73 !important;
+    margin-right: 15px;
+}
+
+.owl-nav button:last-of-type{
+    margin-right: 0;
+}
+
+.owl-nav button i{
+    font-size: 35px;
+    color: #146abd;
 }
 
 

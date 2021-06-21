@@ -24,13 +24,13 @@
             $('.testi-slider.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
-                nav: false,
+                nav: true,
                 dots: false,
                 smartSpeed: 2000,
                 autoplay: true,
                 responsiveClass: true,
                 autoplayTimeout: 4000,
-                // navText: ["<i class='icofont-arrow-left'></i>", "<i class='icofont-arrow-right'></i>"],
+                navText: ["<i class='icofont-arrow-left'></i>", "<i class='icofont-arrow-right'></i>"],
                 responsive: {
                     0: {
                         items: 1,
