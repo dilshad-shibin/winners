@@ -230,7 +230,7 @@ img {
 
 .hero{
     position: relative;
-    background-image: url(../img/banner/new-banner.jpg);
+    background-image: url(../img/banner/banner-new.jpg);
     background-size: cover;
     background-position: center;
     height: 70vh;
@@ -240,8 +240,8 @@ img {
 @media(min-width: 1280px){
     .hero{
         height: 100vh;
-        background-position: inherit;
-        background-size: contain;
+        background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 }
@@ -562,7 +562,7 @@ form .form-control{
     font-size: 18px;
     padding: 12px 66px 12px 40px;
     background-color: #2e9a73;
-    color: #fff;
+    color: #fff !important;
     box-shadow: 0 10px 16px 0 rgb(21 219 150 / 15%);
     transition: all .25s linear;
 }
@@ -694,6 +694,26 @@ form .form-control{
 
 .testi-img-4{
     background: url(../img/testi/4.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.testi-img-5{
+    background: url(../img/testi/5.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.testi-img-6{
+    background: url(../img/testi/6.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.testi-img-7{
+    background: url(../img/testi/7.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.testi-img-8{
+    background: url(../img/testi/8.jpg) no-repeat center;
     background-size: cover;
 }
 
