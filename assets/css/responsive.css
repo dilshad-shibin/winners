@@ -64,6 +64,12 @@
     .owl-nav{
         left: 43%;
     }
+    .nav-btn{
+        margin-top: 15px;
+    }
+    .about-section img{
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 767px){

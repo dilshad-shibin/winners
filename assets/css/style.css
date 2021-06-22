@@ -1232,11 +1232,11 @@ form .form-control{
 
 .about-section{
     background-color: #f1f1f1;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .about-section img{
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
 }
 
 .content-about h1{
@@ -1245,13 +1245,13 @@ form .form-control{
     color: #2e9a73;
     font-weight: 600;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .content-about h1:before{
     position: absolute;
     content: "";
-    width: 5%;
+    width: 20%;
     height: 2px;
     background-color: #2e9a73;
     left: 0;
@@ -1259,5 +1259,5 @@ form .form-control{
 }
 
 .content-about p{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
